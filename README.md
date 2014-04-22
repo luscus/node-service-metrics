@@ -34,8 +34,8 @@ You can pass an options object as you require the library:
 
 **Available Options**
 
-- *disable_cpu_metrics*: library will not return any information about cpu usage.
-- *disable_memory_metrics*: library will not return any information about memory usage.
+- *disable_cpu_metrics* (boolean): library will not return any information about cpu usage (default: false).
+- *disable_memory_metrics* (boolean): library will not return any information about memory usage (default: false).
 
 
 ## API

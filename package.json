@@ -13,7 +13,6 @@
   "main": "./lib/service-metrics.js",
   "dependencies": {
     "usage" : "*",
-    "q-io": "*",
     "q": "*"
   },
   "devDependencies": {
