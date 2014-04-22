@@ -40,12 +40,14 @@ You can pass an options object as you require the library:
 
 ## API
 
-### set(*name* [, *simple_counter*])
+### set(*[persistent-]name* [, *simple_counter*])
 
 Sets a custom metric. Two types of custom metrics are avalaible: the "*simple counter*" an integer value which gets incremented by one and the "*value collection*" which gets incremented by custom values and returns an object with the total value, the count of provided values in the cycle, the max, average and min value.
 
+
+
 **Parameters**
-- *name* (string): the name of the metric
+- *[persistent-]name* (string): the name of the metric. If prefix "persistent-" is used, the metric will not be reset at the end of the cycle
 - *simple_counter* (boolean): the type of the metric (default is *true*)
 
 **Example**
@@ -53,16 +55,22 @@ Sets a custom metric. Two types of custom metrics are avalaible: the "*simple co
     // simple counter
     metrics.set('counter');
 
+    // simple counter that will not be reset
+    metrics.set('persistent-counter');
+
     // value collection
     metrics.set('collection', false);
 
+    // value collection that will not be reset
+    metrics.set('persistent-collection', false);
 
-### incr(*name* [, *value*])
+
+### incr(*[persistent-]name* [, *value*])
 
 Increments a custom metric.
 
 **Parameters**
-- *name* (string): the name of the metric
+- *[persistent-]name* (string): the name of the metric
 - *value* (number): the numeric value to be added (only for collection type)
 
 **Example**
