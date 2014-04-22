@@ -2,7 +2,7 @@
   "author": "https://github.com/luscus/node-service-metrics/graphs/contributors",
   "name": "service-metrics",
   "description": "The 'service-metrics' enable to find the parent module in the path hierarchy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "keywords" : ["service-metrics", "root", "cpu", "ram"],
   "repository": {
     "type": "git",
