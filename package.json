@@ -1,7 +1,7 @@
 {
   "author": "https://github.com/luscus/node-service-metrics/graphs/contributors",
   "name": "service-metrics",
-  "description": "The 'service-metrics' enable to find the parent module in the path hierarchy",
+  "description": "The 'service-metrics' gather metric information about the running process.",
   "version": "0.1.2",
   "keywords" : ["service-metrics", "root", "cpu", "ram"],
   "repository": {
@@ -12,8 +12,8 @@
   "bugs" : "https://github.com/luscus/node-service-metrics/issues",
   "main": "./lib/service-metrics.js",
   "dependencies": {
-    "usage" : "*",
-    "q": "*"
+    "usage" : "0.3.x",
+    "q": "2.0.x"
   },
   "devDependencies": {
     "grunt": "0.4.x",

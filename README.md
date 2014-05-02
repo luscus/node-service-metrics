@@ -2,6 +2,9 @@
 
 The 'service-metrics' gather metric information about the running process.
 
+BEWARE, because of [usage](https://github.com/arunoda/node-usage) this module does not work well on Windows: your `node-gyp` needs to properly installed ([see here](https://github.com/TooTallNate/node-gyp#installation)).
+
+
 **Features**
 - gather interval can be configured
 - gathered metrics are customisable through an easy API
