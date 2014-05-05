@@ -19,7 +19,7 @@ Take a look to the [TODO](https://github.com/luscus/node-service-metrics/blob/ma
 
 Add following line to your project dependencies
 
-    "service-metrics": "0.0.x",
+    "service-metrics": "0.1.x",
 
 then hit
 
