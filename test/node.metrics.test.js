@@ -3,7 +3,9 @@ var options = {dada:true},
 
 var test = 0;
 
-metrics.addTask('output', console.log);
+metrics.addTask('output', function (metrics) {
+  console.log(metrics);
+});
 
 metrics.set('fackeCounter');
 metrics.set('fackeValues', false);
