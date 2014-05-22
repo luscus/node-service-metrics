@@ -3,17 +3,23 @@ var options = {dada:true},
 
 var test = 0;
 
-metrics.addTask('output', function (metrics) {
-  console.log(metrics);
+metrics.addTask('output', function (report) {
+  console.log('####################################');
+  console.log(report);
+  console.log('-- check exists --------------------');
+  console.log('metrics.exists("testCounter"):', metrics.exists('testCounter'));
+  console.log('metrics.exists("doesNotExist"):', metrics.exists('doesNotExist'));
 });
 
-metrics.set('fackeCounter');
-metrics.set('fackeValues', false);
+metrics.set('testCounter');
+metrics.set('persistent-testCounter');
+metrics.set('testCollection', false);
 
 setInterval(function () {
   test++;
-  metrics.incr('fackeCounter');
-  metrics.incr('fackeValues', test);
+  metrics.incr('testCounter');
+  metrics.incr('persistent-testCounter');
+  metrics.incr('testCollection', test);
 
   if (test === 5) test = 0;
 }, 1000);

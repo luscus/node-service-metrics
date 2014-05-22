@@ -85,6 +85,22 @@ Increments a custom metric.
     metrics.incr('collection', 23);
 
 
+### exists(*name*)
+
+Checks if the specified metric exists and return a boolean.
+
+**Parameters**
+- *name* (string): the name of the metric
+
+**Example**
+
+    // returns true
+    metrics.exists('counter');
+
+    // returns false
+    metrics.exists('doesNotExist');
+
+
 ### addTask(*name*, *task*)
 
 Defines a task to be executed at the end of each cycle.
