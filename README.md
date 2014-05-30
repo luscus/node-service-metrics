@@ -39,6 +39,7 @@ You can pass an options object as you require the library:
 
 - *disable_cpu_metrics* (boolean): library will not return any information about cpu usage (default: false).
 - *disable_memory_metrics* (boolean): library will not return any information about memory usage (default: false).
+- *interval* (number): metrics report interval time in milliseconds (default: 5000)
 
 
 ## API
