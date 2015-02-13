@@ -1,37 +1,38 @@
 {
-    "author": "https://github.com/luscus/node-service-metrics/graphs/contributors",
-    "name": "service-metrics",
-    "description": "The 'service-metrics' gather metric information about the running process.",
-    "version": "0.1.10",
-    "keywords": [
-        "service-metrics",
-        "metrics",
-        "root",
-        "cpu",
-        "ram"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/luscus/node-service-metrics.git"
-    },
-    "homepage": "https://github.com/luscus/node-service-metrics",
-    "bugs": "https://github.com/luscus/node-service-metrics/issues",
-    "main": "./lib/service-metrics.js",
-    "dependencies": {
-        "service-probe": "0.1.x",
-        "usage": "0.3.x",
-        "q": "2.0.x"
-    },
-    "devDependencies": {
-        "grunt": "0.4.x",
-        "grunt-contrib-jshint": "0.10.x",
-        "load-grunt-tasks": "0.4.x"
-    },
-    "optionalDependencies": {},
-    "licenses": [
-        {
-            "type": "GPL",
-            "url": "https://github.com/luscus/node-service-metrics/blob/master/COPYING"
-        }
-    ]
+  "author": "https://github.com/luscus/node-service-metrics/graphs/contributors",
+  "name": "service-metrics",
+  "description": "The 'service-metrics' gather metric information about the running process.",
+  "version": "0.1.11",
+  "keywords": [
+    "service-metrics",
+    "metrics",
+    "root",
+    "cpu",
+    "ram"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/luscus/node-service-metrics.git"
+  },
+  "homepage": "https://github.com/luscus/node-service-metrics",
+  "bugs": "https://github.com/luscus/node-service-metrics/issues",
+  "main": "./lib/service-metrics.js",
+  "dependencies": {
+    "service-probe": "0.1.x",
+    "q": "2.0.x"
+  },
+  "devDependencies": {
+    "grunt": "0.4.x",
+    "grunt-contrib-jshint": "0.10.x",
+    "load-grunt-tasks": "0.4.x"
+  },
+  "optionalDependencies": {
+    "usage": "0.3.x"
+  },
+  "licenses": [
+    {
+      "type": "GPL",
+      "url": "https://github.com/luscus/node-service-metrics/blob/master/COPYING"
+    }
+  ]
 }
