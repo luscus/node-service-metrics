@@ -1,37 +1,60 @@
 {
   "name": "service-metrics",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "dependencies": {
     "q": {
       "version": "2.0.3",
       "from": "q@2.0.3",
+      "resolved": "https://registry.npmjs.org/q/-/q-2.0.3.tgz",
       "dependencies": {
         "asap": {
           "version": "2.0.1",
-          "from": "asap@^2.0.0"
+          "from": "asap@2.0.1",
+          "resolved": "https://registry.npmjs.org/asap/-/asap-2.0.1.tgz"
         },
         "pop-iterate": {
           "version": "1.0.1",
-          "from": "pop-iterate@^1.0.1"
+          "from": "pop-iterate@1.0.1",
+          "resolved": "https://registry.npmjs.org/pop-iterate/-/pop-iterate-1.0.1.tgz"
         },
         "weak-map": {
           "version": "1.0.5",
-          "from": "weak-map@^1.0.5"
+          "from": "weak-map@1.0.5",
+          "resolved": "https://registry.npmjs.org/weak-map/-/weak-map-1.0.5.tgz"
         }
       }
     },
     "service-probe": {
       "version": "0.1.6",
       "from": "service-probe@0.1.6",
+      "resolved": "https://registry.npmjs.org/service-probe/-/service-probe-0.1.6.tgz",
       "dependencies": {
         "package.root": {
           "version": "0.2.0",
-          "from": "package.root@0.2.0"
+          "from": "package.root@0.2.0",
+          "resolved": "https://registry.npmjs.org/package.root/-/package.root-0.2.0.tgz"
         },
         "ip": {
           "version": "0.3.2",
           "from": "https://registry.npmjs.org/ip/-/ip-0.3.2.tgz",
           "resolved": "https://registry.npmjs.org/ip/-/ip-0.3.2.tgz"
+        }
+      }
+    },
+    "usage": {
+      "version": "0.6.0",
+      "from": "usage@0.6.0",
+      "resolved": "https://registry.npmjs.org/usage/-/usage-0.6.0.tgz",
+      "dependencies": {
+        "bindings": {
+          "version": "1.2.1",
+          "from": "bindings@1.x.x",
+          "resolved": "https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz"
+        },
+        "nan": {
+          "version": "1.6.2",
+          "from": "nan@1.6.x",
+          "resolved": "https://registry.npmjs.org/nan/-/nan-1.6.2.tgz"
         }
       }
     }

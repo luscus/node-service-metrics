@@ -2,7 +2,7 @@
   "author": "https://github.com/luscus/node-service-metrics/graphs/contributors",
   "name": "service-metrics",
   "description": "The 'service-metrics' gather metric information about the running process.",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "keywords": [
     "service-metrics",
     "metrics",
