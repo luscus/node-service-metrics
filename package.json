@@ -19,16 +19,13 @@
   "main": "./lib/service-metrics.js",
   "dependencies": {
     "service-probe": "0.1.x",
-    "usage": "0.6.x",
-    "q": "2.0.x"
+    "q": "2.0.x",
+    "usage": "0.6.0"
   },
   "devDependencies": {
     "grunt": "0.4.x",
     "grunt-contrib-jshint": "0.10.x",
     "load-grunt-tasks": "0.4.x"
-  },
-  "optionalDependencies": {
-    "usage": "*"
   },
   "licenses": [
     {
