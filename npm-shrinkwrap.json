@@ -1,0 +1,39 @@
+{
+  "name": "service-metrics",
+  "version": "0.1.12",
+  "dependencies": {
+    "q": {
+      "version": "2.0.3",
+      "from": "q@2.0.3",
+      "dependencies": {
+        "asap": {
+          "version": "2.0.1",
+          "from": "asap@^2.0.0"
+        },
+        "pop-iterate": {
+          "version": "1.0.1",
+          "from": "pop-iterate@^1.0.1"
+        },
+        "weak-map": {
+          "version": "1.0.5",
+          "from": "weak-map@^1.0.5"
+        }
+      }
+    },
+    "service-probe": {
+      "version": "0.1.6",
+      "from": "service-probe@0.1.6",
+      "dependencies": {
+        "package.root": {
+          "version": "0.2.0",
+          "from": "package.root@0.2.0"
+        },
+        "ip": {
+          "version": "0.3.2",
+          "from": "https://registry.npmjs.org/ip/-/ip-0.3.2.tgz",
+          "resolved": "https://registry.npmjs.org/ip/-/ip-0.3.2.tgz"
+        }
+      }
+    }
+  }
+}
